@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# Docker
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.bak
+*.tmp
